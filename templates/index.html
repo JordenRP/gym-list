@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="stylesheet" href="/static/css.css">
+</head>
+
+<body>
+  <div>
+    <div class="container">
+      <label id='select_label'>
+        Выберите упражение:
+        <select name="exe" id="list_exe">
+          <option value="Жим лежа">Жим лежа</option>
+          <option value="Приседания">Приседания</option>
+          <option value="Становая тяга">Станова тяга</option>
+        </select>
+      </label>
+
+      <div id="inp" class="none">
+        <h2></h2>
+        <input id="weidth_id" type="text" placeholder="Вес">
+        <input id="rep_id" type="text" placeholder="Повторения">
+        <button id="add">Записать</button>
+        <button id="remove">Выбрать</button>
+      </div>
+      <div id="list_approach" class="none">
+        <h3>Список подходов</h3>
+
+
+      </div>
+      <button id="end" class="none">Завершить</button>
+    </div>
+  </div>
+  <script src='/static/index.js'></script>
+</body></html>
